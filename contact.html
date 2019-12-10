@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Website - Contact Us</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+  <h1 class="hidden">Sarah Calver</h1>
+     <div class="container"><!--start container-->
+         <header class="mainHeader"><!--start mainHeader-->
+              <div class="logoHeader">
+                  <img src="images/sc_logo.svg" alt="My Logo" width="260" height="160" id="logo">
+              </div>
+              <nav class="mainNav"><!--start mainNav-->
+                  <h2 class="hidden">Main Navigation</h2>
+                      <ul class="ulnav">
+                         <li class="linav"><a href="contact.html">Contact</a></li>
+                         <li class="linav"><a href="streams.html">Streams</a></li>
+                         <li class="linav"><a href="home.html">Home</a></li>
+                      </ul>
+              </nav><!--end mainNav-->
+
+          </header><!--end mainHeader-->
+
+          <section class="hero heroContact">
+              <h2>Sarah Calver</h2>
+              <h3>Come stream with me</h3>
+          </section>  
+
+          <main>
+              <section id="mainContact"> <!--start mainContact-->
+                    <h2>Contact Me</h2>
+
+                    <section id="contactArea"><!--start contactArea-->
+                        <h2 class="hidden">Contact form</h2>
+                            <p id="contactText">For more information about how I can help.
+                            </p> 
+                        <form id="contactForm" action="form.php" method="post">
+                            <label for="name">Name: (required)</label>
+                            <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    
+                            <label for="email">Email: (will not be published)</label>
+                            <input type="email" required id="email" size="30" placeholder="Enter your Email">
+                    
+                    
+                            <label for="phone">Phone: (required)</label>
+                            <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+                    
+                            <label for="comments">Comments:</label>
+                            <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+                    
+                            <label for="human">What is 5 + 4?</label>
+                            <input type="text" required id="human" size="30" placeholder="What is 5 + 4?">
+                    
+                            <input id="submit" type="submit" value="Submit">
+                        </form>
+                  </section><!--end contactArea-->  
+            
+                   <section id="mapArea"><!--start mapArea-->
+                        <h3>Visit Us</h3>
+                           <ul>
+                              <li>Sarah Calver </li>
+                              <li>Belmont; Ontario </li>
+                            </ul> 
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11694.09749002345!2d-81.09646315031614!3d42.88288216648306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882e8a2516616aef%3A0x45583c5664f3da4e!2sBelmont%2C%20ON!5e0!3m2!1sen!2sca!4v1575869508276!5m2!1sen!2sca" width="380" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                   </section><!--end mapArea-->  
+
+              </section><!--end mainContact-->
+
+        </main>
+
+          <footer class="mainFooter"><!--Start Footer-->
+              <div class="logoNav">
+                  <div class="logoFooter">
+                      <img src="images/sc_logo.svg" width="170px" height="82px">
+                 </div>
+                      <nav class="footerNav">
+                          <div class="lifooter">
+                            <ul class="ulnav">
+                                <li class="linav"><a href="contact.html">Contact</a></li>
+                                <li class="linav"><a href="streams.html">Streams</a></li>
+                                <li class="linav"><a href="home.html">Home</a></li>
+                            </ul>
+                          </div>
+                    </nav>
+                </div>
+              <div class="socialMedia">
+                 <br>
+                <a href="https://www.instagram.com/simpleskate19/" target="_blank">
+                <img src="images/social_media/instagram_icon.png" alt="Instagram" width="30px" height="35px"></a>
+                <a href="https://www.youtube.com/channel/UCHjbpvVsAfueU4qURm1LeFA/videos" target="_blank">
+                <img src="images/social_media/youtube_icon.png" alt="YouTube" width="30px" height="35px"></a>
+                <a href="https://www.twitch.tv/simpleskate19" target="_blank">
+                <img src="images/social_media/twitch_icon.png" alt="Twitch" width="30px" height="35px"></a>
+            </div>
+        </footer><!--end Footer-->
+
+      </div><!--end container-->
+
+</body>
+</html>
